@@ -1,4 +1,3 @@
-// Required fields
-const isRequired = input => (input === '' ? 'This value is required' : true);
+const isRequired = input => (input === '' ? 'this value is required' : true);
 
-module.exports = { isRequired };
+module.exports = {isRequired};

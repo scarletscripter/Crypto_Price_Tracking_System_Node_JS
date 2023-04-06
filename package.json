@@ -1,19 +1,21 @@
 {
-  "name": "coindex",
+  "name": "crypto-tracker-system",
   "version": "1.0.0",
-  "description": "",
+  "description": "cryptocurrency price tracking system",
   "main": "index.js",
-  "bin": "./bin/coindex.js",
+  "bin": {
+    "crypt": "bin/crypt.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "author": "Ansh Aggarwal",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^1.3.5",
     "colors": "^1.4.0",
-    "commander": "^5.0.0",
+    "commander": "^10.0.0",
     "configstore": "^5.0.1",
-    "inquirer": "^7.1.0"
+    "inquirer": "^8.2.5"
   }
 }
